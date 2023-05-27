@@ -1,8 +1,6 @@
 .footer {
     background-color: black;
-}
-.container {
-    border-top: 1px solid #D5D4D9;
+    margin-top: 200px;
 }
 .category {
     display: flex;

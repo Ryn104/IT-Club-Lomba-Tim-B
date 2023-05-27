@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
     font-family: 'Lexend';
-    background-color: black;
 }
 .navbar {
     display: flex;
