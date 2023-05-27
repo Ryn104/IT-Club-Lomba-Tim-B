@@ -1,0 +1,75 @@
+.hal-1 {
+    background-image: url("../img/bg-1.png");
+    height:100vh;
+    background-size: cover;
+}
+.hal-1-main {
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.hal-1-p {
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+.hal-1-h1 {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    letter-spacing: -0.02em;
+}
+.hal-1-h2 {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: -0.02em;
+}
+.hal-1-h4 {
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -0.02em;
+}
+.hal-1-kotak {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.hal-1-button {
+    display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 13px 32px 15px 24px;
+    width: 323px;
+    height: 52px;
+}
+.hal-1-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+}
+.hal-1-button-2 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.hal-1-box {
+    width: 287px;
+    height: 246px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.69%, rgba(255, 255, 255, 0.1) 104.12%);
+    filter: blur(0.5px);
+    border-radius: 20px;
+    padding: 35px 25px;
+}

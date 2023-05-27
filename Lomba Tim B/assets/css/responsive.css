@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1370px) {
+    /* Start NavBar */
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Lexend';
+    }
+    .navbar {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .logo {
+        display: block;
+        font-size: 38px;
+        padding: 10px 15px;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .titik {
+        color: #FC3535;
+    }
+    .nav-list {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .nav {
+        display: block;
+        padding: 7px 15px;
+        color: rgba(255, 255, 255, 0.7);
+        background: transparent;
+        margin: 0 0px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* End NavBar */
+    .hal-1-main {
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .hal-1-p {
+        color: rgba(255, 255, 255, 0.7);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .hal-1-h1 {
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        letter-spacing: -0.02em;
+        margin-top: 110px;
+    }
+    .hal-1-h2 {
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        letter-spacing: -0.02em;
+    }
+    .hal-1-h4 {
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: -0.02em;
+    }
+    .hal-1-kotak {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    .hal-1-button {
+        display: block;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 6px 12px 15px 14px;
+        width: 303px;
+        height: 32px;
+    }
+    .hal-1-button a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .hal-1-button-2 {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .hal-1-box {
+        width: 247px;
+        height: 206px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.69%, rgba(255, 255, 255, 0.1) 104.12%);
+        filter: blur(0.5px);
+        border-radius: 20px;
+        padding: 35px 25px;
+    }
+}
