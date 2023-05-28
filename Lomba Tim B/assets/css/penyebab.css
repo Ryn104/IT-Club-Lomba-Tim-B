@@ -16,7 +16,7 @@ body {
     color: white;
 }
 
-.container-1 {
+.container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,67 +29,76 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .card-box-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .card-box-3 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.box-1 { 
+
+.box-1 {
     background-color: #090A09;
     width: 680px;
-    height: 352.52px; 
+    height: 352.52px;
     border: 1px solid rgba(213, 212, 217, 0.1);
     border-radius: 10px;
     margin: 10px;
     /* margin: 10px; */
 }
-.box-2 { 
+
+.box-2 {
     background-color: #090A09;
     width: 30%;
-    height: 352.52px; 
+    height: 352.52px;
     border: 1px solid rgba(213, 212, 217, 0.1);
     border-radius: 10px;
     /* margin: 10px; */
 }
-.box-3 { 
+
+.box-3 {
     background-color: #090A09;
     width: 560px;
-    height: 352.52px; 
+    height: 352.52px;
     border: 1px solid rgba(213, 212, 217, 0.1);
     border-radius: 10px;
     margin: 10px;
     /* margin: 10px; */
 }
-.box-4 { 
+
+.box-4 {
     background-color: #090A09;
     width: 522px;
-    height: 352.52px; 
+    height: 352.52px;
     border: 1px solid rgba(213, 212, 217, 0.1);
     border-radius: 10px;
     /* margin: 10px; */
 }
-.box-5 { 
+
+.box-5 {
     background-color: #090A09;
     width: 330px;
-    height: 352.52px; 
+    height: 352.52px;
     border: 1px solid rgba(213, 212, 217, 0.1);
     border-radius: 10px;
     margin: 10px;
     /* margin: 10px; */
 }
-.box-6 { 
+
+.box-6 {
     background-color: #090A09;
     width: 755px;
-    height: 352.52px; 
+    height: 352.52px;
     border: 1px solid rgba(213, 212, 217, 0.1);
     border-radius: 10px;
     /* margin: 10px; */
 }
+
 .no-1 {
     position: absolute;
     color: #6DB2D6;
@@ -100,6 +109,7 @@ body {
     margin-left: 20px;
     margin-top: 20px;
 }
+
 .img-1 {
     width: 562.12px;
     height: 285.72px;
@@ -113,32 +123,38 @@ body {
     margin-left: 40px;
     margin-top: 25px;
 }
+
 .img-3 {
     width: 489.76px;
     height: 345.72px;
     margin-left: 60px;
 }
+
 .img-4 {
     width: 489.76px;
     height: 345.72px;
     margin-left: 30px;
 }
+
 .img-5 {
     width: 281.1px;
-    height: 335.72px;  
-    margin-left: 40px; 
+    height: 335.72px;
+    margin-left: 40px;
 }
+
 .img-6 {
     width: 710.85px;
     height: 305.72px;
     margin-top: 30px;
     margin-left: 40px;
 }
+
 .text-1 {
     position: relative;
     line-height: 1rem;
     margin-left: 20px;
 }
+
 .card-title-1 {
     position: absolute;
     color: white;
@@ -146,33 +162,37 @@ body {
 }
 
 .card-text-1 {
-   position: absolute;
-   color: #FFFFFFB2;
-   bottom: 1px;
-   font-size: 12px;
+    position: absolute;
+    color: #FFFFFFB2;
+    bottom: 1px;
+    font-size: 12px;
 }
+
 .text-2 {
     position: relative;
     line-height: 1rem;
     margin-left: 20px;
 }
+
 .card-title-2 {
     position: absolute;
     color: white;
-    bottom: 60px;
+    bottom: 80px;
 }
 
 .card-text-2 {
-   position: absolute;
-   color: #FFFFFFB2;
-   bottom: 1px;
-   font-size: 12px;
+    position: absolute;
+    color: #FFFFFFB2;
+    bottom: 1px;
+    font-size: 12px;
 }
+
 .text-3 {
     position: relative;
     line-height: 1rem;
     margin-left: 20px;
 }
+
 .card-title-3 {
     position: absolute;
     color: white;
@@ -180,16 +200,18 @@ body {
 }
 
 .card-text-3 {
-   position: absolute;
-   color: #FFFFFFB2;
-   bottom: 1px;
-   font-size: 12px;
+    position: absolute;
+    color: #FFFFFFB2;
+    bottom: 1px;
+    font-size: 12px;
 }
+
 .text-4 {
     position: relative;
     line-height: 1rem;
     margin-left: 20px;
 }
+
 .card-title-4 {
     position: absolute;
     color: white;
@@ -197,16 +219,18 @@ body {
 }
 
 .card-text-4 {
-   position: absolute;
-   color: #FFFFFFB2;
-   bottom: 1px;
-   font-size: 12px;
+    position: absolute;
+    color: #FFFFFFB2;
+    bottom: 1px;
+    font-size: 12px;
 }
+
 .text-5 {
     position: relative;
     line-height: 1rem;
     margin-left: 20px;
 }
+
 .card-title-5 {
     position: absolute;
     color: white;
@@ -214,16 +238,18 @@ body {
 }
 
 .card-text-5 {
-   position: absolute;
-   color: #FFFFFFB2;
-   bottom: 1px;
-   font-size: 12px;
+    position: absolute;
+    color: #FFFFFFB2;
+    bottom: 1px;
+    font-size: 12px;
 }
+
 .text-6 {
     position: relative;
     line-height: 1rem;
     margin-left: 20px;
 }
+
 .card-title-6 {
     position: absolute;
     color: white;
@@ -231,8 +257,8 @@ body {
 }
 
 .card-text-6 {
-   position: absolute;
-   color: #FFFFFFB2;
-   bottom: 1px;
-   font-size: 12px;
+    position: absolute;
+    color: #FFFFFFB2;
+    bottom: 1px;
+    font-size: 12px;
 }
