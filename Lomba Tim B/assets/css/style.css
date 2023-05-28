@@ -2,11 +2,9 @@ body {
     background-color: black;
     margin: 0px;
     padding: 0px;
-}
-.hal-1 {
-    background-image: url("../img/bg-1.png");
+    /* background-image: url("../img/bg-1.png");
     height:100vh;
-    background-size: cover;
+    background-size: cover; */
 }
 .hal-1-main {
     height: 100vh;
@@ -14,7 +12,7 @@ body {
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
 }
 .hal-1-p {
     color: rgba(255, 255, 255, 0.7);

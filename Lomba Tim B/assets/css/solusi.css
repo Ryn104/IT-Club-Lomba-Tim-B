@@ -1,0 +1,41 @@
+
+.solusi-hal-2 {
+    margin-bottom: 400px;
+}
+.solusi-hal-2-p {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D5D4D9;
+}
+.solusi-hal-2-p1 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #6DB2D6;
+}
+.p1-kiri {
+    display: flex;
+    flex: 1;
+}
+.solusi-main {
+    margin-top: 40px;
+}
+.solusi-hal-2-h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.solusi-hal-2-h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.solusi-hal-2-p2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.solusi-paragraf-1 {
+    margin-top: 50px;
+    border-bottom: 1px solid #D5D4D9;
+    padding-bottom: 50px;
+}
