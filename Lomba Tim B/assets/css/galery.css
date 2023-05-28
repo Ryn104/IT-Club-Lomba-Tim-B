@@ -1,11 +1,8 @@
-.h1-galery {
-    color: white;
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 45px;
-    letter-spacing: 0.01em;
+.galery-hal-1 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -100px;
 }
 .sub-galery {
     color: white;
@@ -15,6 +12,8 @@
 }
 .img-galery {
     display: flex;
+    flex: 1;
+    justify-content: flex-end;
 }
 .img {
     margin: 10px;
