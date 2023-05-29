@@ -41,3 +41,15 @@
     border-bottom: 3px solid #FC3535;
     margin-bottom: -3px;
 }
+
+.nav:active {
+    color: white;
+    border-bottom: 3px solid #FC3535;
+    margin-bottom: -3px;
+}
+
+.active {
+    color: white !important;
+    border-bottom: 3px solid #FC3535 !important;
+    margin-bottom: -3px !important;
+}

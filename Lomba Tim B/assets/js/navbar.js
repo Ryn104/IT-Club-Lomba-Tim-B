@@ -7,6 +7,7 @@ penyebab.addEventListener("click", function(){
     penyebab.style.borderBottom = "3px solid #FC3535";
     penyebab.style.marginBottom = "-3px";
     penyebab.style.color = "white";
+
 });
 dampak.addEventListener("click", function(){
     dampak.style.borderBottom = "3px solid #FC3535";
