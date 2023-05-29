@@ -18,3 +18,14 @@
 .img {
     margin: 10px;
 }
+#page-galery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+}
+#page-1 {
+    margin-top: 140px;
+}
+.colum-1 img {
+    margin: 5px;
+}
