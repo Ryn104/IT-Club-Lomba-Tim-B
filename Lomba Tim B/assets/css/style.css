@@ -6,6 +6,7 @@ body {
     height:100vh;
     background-size: cover; */
 }
+/* Start Hal-1 */
 .hal-1-main {
     height: 100vh;
     display: flex;
@@ -79,6 +80,9 @@ body {
     border-radius: 20px;
     padding: 35px 25px;
 }
+/* End Hal-1 */
+
+/* Start Hal-2 */
 .hal-2 {
     padding: 280px;
 }
@@ -90,13 +94,15 @@ body {
     margin-left: auto;
     margin-bottom: 40px;
 }
+/* End Hal-2 */
+
+/* Start Hal-3 */
 .hal-3-h1 {
     text-align: center;
     margin-bottom: 100px;
 }
 .accordion-hal3 {
-    /* transform: rotate(270deg); */
-    width: 90%;
+    width: 80%;
     align-items: center;
     margin: 0px auto;
 }
@@ -116,11 +122,8 @@ body {
 .text-accordion {
     display: flex;
     flex: 1;
-    /* justify-content: flex-start; */
-    /* transform: rotate(180deg); */
 }
 .h1-nomor {
-    /* transform: rotate(270deg); */
     padding: 10px 30px;
     font-weight: 600;
     font-size: 50px;
@@ -137,8 +140,149 @@ body {
     color: #FFFFFF;
 }
 .value-accordion {
-
+    display: flex;
+    
 }
 .img-accordion {
-    height: 500px;
+    position: relative;
+    margin-left: 500px;
+}
+.text-accordion-hal3 {
+    position: relative;
+    margin-top: 290px;
+    margin-left: 20px;
+}
+.title-text-accordion {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+}
+.text-accordion-p {
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 110px;
+    width: max-content;
+}
+.img-accordion-2 {
+    position: relative;
+    margin-left: 500px;
+}
+.text-accordion-hal3-2 {
+    position: relative;
+    margin-top: px;
+    margin-left: 20px;
+}
+.title-text-accordion-2 {
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+}
+.text-accordion-p-2 {
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 110px;
+    width: max-content;
+}
+/* End Hal-3 */
+
+/* Start Hal-4 */
+.hal-4 {
+    margin-top: 320px;
+}
+.hal-4-h1 {
+    margin-bottom: 40px;
+}
+.hal-4-p {
+    margin-bottom: 70px;
+}
+.bg-img {
+    background: transparent;
+}
+.card-text {
+    color: white;
+}
+.hal4-dampak-tempat {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.hal4-dampak-h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+.hal4-dampak-p {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 18px;
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.text-3 {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
+.text-4 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 220px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+}
+.page {
+    display: flex;
+}
+.colum-1 {
+    margin: 10px 5px;
+}
+/* End Hal-4 */
+
+/* Start Hal-5 */
+.hal-5-h1 {
+    margin-top: 250px;
+}
+/* End Hal-5 */
+
+/* Start Hal-6 */
+.hal-6-h1 {
+    margin-top: 320px;
+}
+.hal-6-top {
+    display: flex;
+    padding-bottom: 10px;
+}
+.pemulihan-p1 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+}
+.pemulihan-p1-kiri {
+    display: flex;
+    flex: 1;
+}
+.img-pemulihan {
+    margin: 5px;
+}
+.foto-pemulihan {
+    margin-top: 5px;
+    margin-bottom: 400px;
 }
