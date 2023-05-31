@@ -4,18 +4,9 @@
         height: 100vh;
     }
 
-    .hal-1-h1 {
-        font-size: 64px;
-    }
-
-    .hal-1-p {
-        font-size: 18px;
-    }
-
     .img-1 {
-        width: 583px !important;
-        height: 480px !important;
-        margin-top: 100px;
+        width: 513px !important;
+        height: 410px !important;
     }
 
     .solusi-hal-2 {
@@ -24,13 +15,13 @@
 
     .solusi-hal-2-p {
         display: flex;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
         border-bottom: 1px solid #D5D4D9;
     }
 
     .solusi-hal-2-p1 {
         font-weight: 500;
-        font-size: 20px;
+        font-size: 16px;
         color: #6DB2D6;
     }
 
@@ -40,30 +31,30 @@
     }
 
     .solusi-main {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .solusi-hal-2-h4 {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         color: #FFFFFF;
     }
 
     .solusi-hal-2-h2 {
         font-weight: 600;
-        font-size: 32px;
+        font-size: 28px;
         color: #FFFFFF;
     }
 
     .solusi-hal-2-p2 {
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         color: rgba(255, 255, 255, 0.7);
     }
 
     .solusi-paragraf-1 {
-        margin-top: 50px;
+        margin-top: 20px;
         border-bottom: 1px solid #D5D4D9;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 }

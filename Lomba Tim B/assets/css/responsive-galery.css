@@ -3,16 +3,10 @@
         display: flex;
         justify-content: center;
         height: 100vh;
-        margin-top: 0px;
+        margin-top: -80px;
     }
     .sub-galery {
         color: white;
-    }
-    .hal-1-h1 {
-        font-size: 64px;
-    }
-    .hal-1-p {
-        font-size: 18px;
     }
     .galery-hal-1 {
         align-items: center;
@@ -26,27 +20,24 @@
         margin: 10px 0px 10px 10px;
     }
     .img1-galery {
-        width: 256px;
-        height: 123px;
+        width: 240px !important;
     }
     .img2-galery {
-        width: 236px;
-        height: 370px;
+        width: 240px !important;
     }
     .img3-galery {
-        width: 248px;
-        height: 190px;
+        width: 240px !important;
     }
     .img4-galery {
-        width: 248px;
-        height: 283px;
+        width: 240px !important;
+        height: 275px !important;
     }
     #page-1 {
-        margin-top: 125px;
+        margin-top: 120px;
     }
     .img-galery-hal2 {
         display: flex;
-        margin: -35px auto;
+        margin: -90px auto;
     }
     .galery-col-3 {
         display: flex;

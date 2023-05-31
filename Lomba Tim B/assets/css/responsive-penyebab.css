@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1370px) {
+    .penyebab-hal-1 {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        margin-top: -80px;
+    }
+    .img-penyebab-1 {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .img-penyebab-hal1 {
+        width: 503px;
+        height: 400px;
+    }
+    .card-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-1 {
+        background-color: #090A09;
+        width: 60%;
+        height: max-content;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px 20px 20px 10px;
+        display: flex;
+    }
+    .box-2 {
+        background-color: #090A09;
+        width: 40%;
+        height: max-content;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px 20px 20px 10px;
+        display: flex;
+    }
+    
+    .box-3 {
+        background-color: #090A09;
+        width: 52%;
+        height: max-content;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px 20px 20px 10px;
+        display: flex;
+    }
+    
+    .box-4 {
+        background-color: #090A09;
+        width: 50%;
+        height: max-content;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px 20px 20px 10px;
+        display: flex;
+    }
+    
+    .box-5 {
+        background-color: #090A09;
+        width: 35%;
+        height: max-content;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px 20px 20px 10px;
+        display: flex;
+    }
+    
+    .box-6 {
+        background-color: #090A09;
+        width: 65%;
+        height: max-content;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 20px 20px 20px 10px;
+        display: flex;
+    }
+    .no-1 {
+        color: #6DB2D6;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .img-penyebab {
+        height: 320px;
+        width: min-content;
+    }
+    .text-penyebab {
+        position: relative;
+        margin-left: -65px;
+    }
+    .card-title-1 {
+        position: absolute;
+        color: white;
+        bottom: 90px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .card-text-1 {
+        position: absolute;
+        color: #FFFFFFB2;
+        bottom: 6px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

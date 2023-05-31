@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1370px) {
+    .navbar {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .logo {
+        display: block;
+        font-size: 38px;
+        padding: 10px 15px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .titik {
+        color: #FC3535;
+    }
+    .nav-list {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .nav {
+        display: block;
+        padding: 1px 1px;
+        color: rgba(255, 255, 255, 0.7);
+        background: transparent;
+        margin: 6px 15px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .nav:hover {
+        color: rgb(255, 255, 255);
+        border-bottom: 1px solid #FC3535;
+        margin-bottom: -1px;
+    }
+    
+    .nav:active {
+        color: white;
+        border-bottom: 3px solid #FC3535;
+        margin-bottom: -3px;
+    }
+    
+    .active {
+        color: white !important;
+        border-bottom: 3px solid #FC3535 !important;
+        margin-bottom: -3px !important;
+    }
+    
+}
