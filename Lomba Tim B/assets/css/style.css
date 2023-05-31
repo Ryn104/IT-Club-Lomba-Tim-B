@@ -7,6 +7,9 @@ body {
     background-size: cover; */
 }
 /* Start Hal-1 */
+.index-hal1 {
+    margin-top: 40px;
+}
 .hal-1-main {
     height: 100vh;
     display: flex;

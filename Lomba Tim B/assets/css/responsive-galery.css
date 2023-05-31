@@ -33,11 +33,11 @@
         height: 275px !important;
     }
     #page-1 {
-        margin-top: 120px;
+        margin-top: 110px;
     }
     .img-galery-hal2 {
         display: flex;
-        margin: -90px auto;
+        margin: -70px auto;
     }
     .galery-col-3 {
         display: flex;
@@ -45,10 +45,10 @@
         justify-content: flex-end;
     }
     .galery-img-hal2 {
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
     .img-page-1 {
-        width: 435px !important;
+        width: 440px !important;
     }
     .img-page-2 {
         width: 315px !important;
