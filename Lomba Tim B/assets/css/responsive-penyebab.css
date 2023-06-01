@@ -5,6 +5,9 @@
         height: 100vh;
         margin-top: -80px;
     }
+    .hal1-penyebab-p {
+        width: 450px;
+    }
     .img-penyebab-1 {
         display: flex;
         flex: 1;

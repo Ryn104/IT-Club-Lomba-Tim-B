@@ -1,5 +1,5 @@
 .hal1-solusi {
-    width: 550px;
+    width: 620px;
 }
 .solusi-hal-2 {
     margin-bottom: 400px;
@@ -30,11 +30,13 @@
     font-weight: 600;
     font-size: 32px;
     color: #FFFFFF;
+    padding-left: 45px;
 }
 .solusi-hal-2-p2 {
     font-weight: 400;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
 }
 .solusi-paragraf-1 {
     margin-top: 50px;

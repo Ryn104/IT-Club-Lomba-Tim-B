@@ -1,17 +1,17 @@
 @media only screen and (max-width: 1366px) {
-
     .dampak-hal-1 {
         display: flex;
         justify-content: center;
         height: 100vh;
         margin-top: -80px;
     }
-    
+    .hal1-dampak-p {
+        width: 580px;
+    }
     .img1-dampak {
         width: 503px !important;
         height: 400px !important;
     }
-    
     .img-dampak-1 {
         display: flex;
         flex: 1;
@@ -19,11 +19,9 @@
         margin-top: auto;
         margin-bottom: auto;
     }
-    
     .carousel-dampak {
         border-radius: 10px;
     }
-    
     .dampak-carousel-tempat {
         color: white;
         font-weight: 600;
@@ -31,7 +29,6 @@
         margin-top: -732px;
         margin-left: 70px;
     }
-
     .dampak-carousel-h1 {
         color: white;
         font-weight: 600;
@@ -40,7 +37,6 @@
         margin-left: 70px;
         width: 750px;
     }
-
     .dampak-carousel-berita {
         color: rgba(255, 255, 255, 0.7);
         font-weight: 400;
@@ -50,11 +46,9 @@
         margin-left: 70px;
         padding-bottom: 80px;
     }
-
     .img-ryn {
         border-radius: 10px;
     }
-    
     .tempat-ryn {
         margin-top: -740px;
     }

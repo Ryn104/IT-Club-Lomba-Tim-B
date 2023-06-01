@@ -203,10 +203,11 @@ body {
     margin-top: 320px;
 }
 .hal-4-h1 {
-    margin-bottom: 40px;
+    margin-bottom: 10px !important;
 }
 .hal-4-p {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    width: 850px;
 }
 .bg-img {
     background: transparent;

@@ -2,8 +2,11 @@
     .galery-hal-1 {
         display: flex;
         justify-content: center;
-        height: 100vh;
-        margin-top: -80px;
+        height: 70vh;
+        margin-top: 25px;
+    }
+    .hal1-galery-p {
+        width: 550px;
     }
     .sub-galery {
         color: white;
@@ -37,7 +40,7 @@
     }
     .img-galery-hal2 {
         display: flex;
-        margin: -70px auto;
+        margin: auto auto;
     }
     .galery-col-3 {
         display: flex;
