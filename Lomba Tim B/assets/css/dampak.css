@@ -4,6 +4,9 @@
     height: 100vh;
     margin-top: -100px;
 }
+.hal1-dampak-p {
+    width: 580px;
+}
 .img-dampak-1 {
     display: flex;
     flex: 1;
@@ -18,20 +21,20 @@
     color: white;
     font-weight: 600;
     font-size: 18px;
-    margin-top: -860px;
+    margin-top: -820px;
     margin-left: 70px; 
 }
 .img-ryn {
     border-radius: 10px;
 }
-.tempat-ryn {
-    margin-top: -870px;
+.berita-ryn {
+    padding-bottom: 800px;
 }
 .dampak-carousel-h1 {
     color: white;
     font-weight: 600;
     font-size: 40px;
-    margin-top: 405px;
+    margin-top: 375px;
     margin-left: 70px;  
 }
 .dampak-carousel-berita {
