@@ -10,6 +10,9 @@
 .galery-hal-1 {
     align-items: center;
 }
+.hal1-galery-p {
+    width: 550px;
+}
 .img-galery {
     display: flex;
     flex: 1;
