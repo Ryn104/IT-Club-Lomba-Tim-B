@@ -35,7 +35,7 @@
         font-size: 30px;
         margin-top: 380px;
         margin-left: 70px;
-        width: 750px;
+        width: 680px;
     }
     .dampak-carousel-berita {
         color: rgba(255, 255, 255, 0.7);
@@ -53,3 +53,72 @@
         margin-top: -740px;
     }
 }
+@media only screen and (max-width: 430px) {
+    .dampak-hal-1 {
+        display: block;
+        justify-content: center;
+        height: 1000px;
+        margin-top: -220px;
+    }
+    .hal1-dampak-p {
+        width: 360px !important;
+        text-align: justify;
+    }
+    .img1-dampak {
+        margin-top: -245px;
+        width: 420px !important;
+        height: 300px !important;
+    }
+    .img-dampak-1 {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .carousel-dampak {
+        border-radius: 10px;
+        margin-top: -50px;
+    }
+    .dampak-carousel-tempat {
+        color: white;
+        font-weight: 600;
+        font-size: 11px;
+        margin-top: -235px;
+        margin-left: 5px;
+    }
+    .dampak-carousel-h1 {
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 5px;
+        width: 300px;
+    }
+    .dampak-carousel-berita {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        width: 355px;
+        margin-top: 12px;
+        margin-left: 5px;
+        margin-bottom: 9px;
+        padding-bottom: 0px;
+        text-align: justify;
+    }
+    .arrow {
+        gap: 10px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    .button-arrow {
+        background-color: transparent;
+        border: 0px solid white;
+    }
+    .img-arrow {
+       width: 20px; 
+    }
+}
+
