@@ -18,14 +18,17 @@
     text-decoration: none;
     font-weight: 700;
 }
+.logo:hover {
+    color: white;
+}
 .titik {
     color: #FC3535;
 }
-.nav-list {
+/* .nav-list {
     display: flex;
     flex: 1;
     justify-content: flex-end;
-}
+} */
 .nav {
     display: block;
     padding: 1px 1px;
@@ -52,4 +55,14 @@
     color: white !important;
     border-bottom: 3px solid #FC3535 !important;
     margin-bottom: -3px !important;
+}
+.button-navbar {
+    background-color: white !important;
+    width: 55px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.button-navbar span {
+    height: 20px;
 }

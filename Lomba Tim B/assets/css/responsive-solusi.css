@@ -62,3 +62,70 @@
         padding-bottom: 20px;
     }
 }
+@media only screen and (max-width: 430px) {
+
+    .dampak-hal-1 {
+        height: 100vh;
+    }
+
+    .img-1 {
+        width: 513px !important;
+        height: 410px !important;
+    }
+
+    .solusi-hal-2 {
+        margin-bottom: 100px;
+    }
+
+    .hal1-solusi {
+        width: 550px;
+    }
+
+    .solusi-hal-2-p {
+        display: flex;
+        padding-bottom: 0px;
+        border-bottom: 1px solid #D5D4D9;
+    }
+
+    .solusi-hal-2-p1 {
+        font-weight: 500;
+        font-size: 15px;
+        color: #6DB2D6;
+        margin-bottom: 0px;
+    }
+
+    .p1-kiri {
+        display: flex;
+        flex: 1;
+    }
+
+    .solusi-main {
+        margin-top: 10px;
+    }
+
+    .solusi-hal-2-h4 {
+        font-weight: 600;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .solusi-hal-2-h2 {
+        font-weight: 600;
+        font-size: 13px;
+        color: #FFFFFF;
+        margin-left: -18px;
+    }
+
+    .solusi-hal-2-p2 {
+        font-weight: 400;
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 11px;
+    }
+
+    .solusi-paragraf-1 {
+        margin-top: 10px;
+        border-bottom: 1px solid #D5D4D9;
+        padding-bottom: 5px;
+    }
+}
