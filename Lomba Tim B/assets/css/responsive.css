@@ -1,3 +1,4 @@
+/* Responsive HD */
 @media only screen and (max-width: 1370px) {
     /* Start Hal-1 */
     .index-hal1 {
@@ -21,7 +22,7 @@
         color: white;
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 45px;
         letter-spacing: -0.02em;
     }
     .hal-1-h2 {
@@ -51,9 +52,6 @@
         padding: 11px 32px 15px 24px;
         width: 270px;
         height: 42px;
-    }
-    .hal-1-button:hover {
-        background-color: #FC3535;
     }
     .hal-1-button a {
         color: white;
@@ -100,7 +98,7 @@
         margin-bottom: 70px;
     }
     .accordion-hal3 {
-        width: 80%;
+        width: 60%;
         align-items: center;
         margin: 0px auto;
     }
@@ -124,7 +122,7 @@
     .h1-nomor {
         padding: 4px 30px 4px 25px;
         font-weight: 600;
-        font-size: 35px;
+        font-size: 30px;
         line-height: 62px;
         letter-spacing: -0.02em;
         color: #6DB2D6;
@@ -133,7 +131,7 @@
     .h2-hal-3 {
         margin: 15px 40px;
         font-weight: 500;
-        font-size: 25px;
+        font-size: 23px;
         line-height: 40px;
         color: #FFFFFF;
     }
@@ -144,27 +142,28 @@
     .img-accordion {
         position: relative;
         margin-left: 500px;
+        height: 370px;
     }
     .text-accordion-hal3 {
         position: relative;
-        margin-top: 320px;
+        margin-top: 200px;
         margin-left: 20px;
     }
     .title-text-accordion {
         position: absolute;
         color: white;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 35px;
     }
     .text-accordion-p {
         color: rgba(255, 255, 255, 0.7);
         position: absolute;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 22px;
         margin-top: 80px;
-        width: max-content;
+        width: 500px;
     }
     .img-accordion-2 {
         position: relative;
@@ -195,13 +194,14 @@
 
     /* Start Hal-4 */
     .hal-4 {
-        margin-top: 280px;
+        margin-top: 240px;
     }
     .hal-4-h1 {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .hal-4-p {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+        width: 720px;
     }
     .bg-img {
         background: transparent;
@@ -219,14 +219,15 @@
     .hal4-dampak-h1 {
         color: white;
         font-weight: 600;
-        font-size: 35px;
+        font-size: 30px;
+        width: 700px;
         margin-top: 410px;
         margin-left: 50px;
     }
     .hal4-dampak-p {
         color: rgba(255, 255, 255, 0.7);
         font-weight: 400;
-        font-size: 14px;
+        font-size: 15px;
         width: 700px;
         margin-top: 20px;
         margin-left: 50px;
@@ -235,7 +236,7 @@
         color: rgba(255, 255, 255, 0.7);
         margin-left: 50px;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 28px;
     }
     .text-4 {
@@ -243,7 +244,305 @@
         margin-left: 50px;
         margin-top: 180px;
         font-weight: 600;
+        font-size: 35px;
+        line-height: 62px;
+    }
+    .page {
+        display: flex;
+    }
+    .colum-1 {
+        margin: 10px 5px;
+    }
+    /* End Hal-4 */
+
+    /* Start Hal-5 */
+    .hal-5-h1 {
+        margin-top: 250px;
+    }
+    /* End Hal-5 */
+
+    /* Start Hal-6 */
+    .hal-6-h1 {
+        margin-top: 250px;
+    }
+    .hal-6-top {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .pemulihan-p1 {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 0px !important;
+        color: #ffffff;
+    }
+    .pemulihan-p1-kiri {
+        display: flex;
+        flex: 1;
+    }
+    .img-pemulihan {
+        margin: 5px;
+    }
+    .foto-pemulihan {
+        margin-top: 5px;
+        margin-bottom: 400px;
+    }
+    .img-pemulihan-1 {
+        height: 211px;
+    }
+    .img-pemulihan-2 {
+        height: 430px;
+    }
+    .img1-pemulihan {
+        margin-left: -5px;
+    }
+}
+/* Responsive Mobile */
+@media only screen and (max-width: 430px) {
+    /* Start Hal-1 */
+    .index-hal1 {
+        margin-top: -15px;
+    }
+    .hal-1-main {
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .hal-1-p {
+        color: rgba(255, 255, 255, 0.7);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .hal-1-h1 {
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        letter-spacing: -0.02em;
+    }
+    .hal-1-h2 {
+        color: white;
+        font-style: normal;
+        font-weight: 600;
         font-size: 40px;
+        letter-spacing: -0.02em;
+    }
+    .hal-1-h4 {
+        color: white;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+    }
+    .hal-1-kotak {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+    .hal-1-button {
+        display: block;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 11px 32px 15px 24px;
+        width: 270px;
+        height: 42px;
+    }
+    .hal-1-button a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .hal-1-button-2 {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .hal-1-box {
+        margin-top: -20px;
+        width: 270px;
+        height: 196px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.69%, rgba(255, 255, 255, 0.1) 104.12%);
+        filter: blur(0.5px);
+        border-radius: 20px;
+        padding: 25px 25px;
+    }
+    /* End Hal-1 */
+
+    /* Start Hal-2 */
+    .hal-2 {
+        padding: 100px 280px 130px 280px;
+    }
+    .hal-2-h1 {
+        margin-bottom: 30px;
+    }
+    .hal-2-p {
+        width: 450px;
+        margin-left: auto;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    /* End Hal-2 */
+
+    /* Start Hal-3 */
+    .hal-3-h1 {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .accordion-hal3 {
+        width: 60%;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .hal-3-accordion-item {
+        margin: 20px;
+        background: #090A09;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+    }
+    .button-accordion {
+        height: 80px;
+        background: #090A09;
+        border: 1px solid rgba(213, 212, 217, 0.1);
+        border-radius: 10px;
+        padding-top: 15px;
+    }
+    .text-accordion {
+        display: flex;
+        flex: 1;
+    }
+    .h1-nomor {
+        padding: 4px 30px 4px 25px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 62px;
+        letter-spacing: -0.02em;
+        color: #6DB2D6;
+        border-right: 1px solid rgba(213, 212, 217, 0.1);
+    }
+    .h2-hal-3 {
+        margin: 15px 40px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+    .value-accordion {
+        display: flex;
+        
+    }
+    .img-accordion {
+        position: relative;
+        margin-left: 500px;
+        height: 370px;
+    }
+    .text-accordion-hal3 {
+        position: relative;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    .title-text-accordion {
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .text-accordion-p {
+        color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 80px;
+        width: 500px;
+    }
+    .img-accordion-2 {
+        position: relative;
+        margin-left: 500px;
+    }
+    .text-accordion-hal3-2 {
+        position: relative;
+        margin-top: px;
+        margin-left: 20px;
+    }
+    .title-text-accordion-2 {
+        position: absolute;
+        color: white;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .text-accordion-p-2 {
+        color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 110px;
+        width: max-content;
+    }
+    /* End Hal-3 */
+
+    /* Start Hal-4 */
+    .hal-4 {
+        margin-top: 240px;
+    }
+    .hal-4-h1 {
+        margin-bottom: 0px;
+    }
+    .hal-4-p {
+        margin-bottom: 30px;
+        width: 720px;
+    }
+    .bg-img {
+        background: transparent;
+    }
+    .card-text {
+        color: white;
+    }
+    .hal4-dampak-tempat {
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .hal4-dampak-h1 {
+        color: white;
+        font-weight: 600;
+        font-size: 30px;
+        width: 700px;
+        margin-top: 410px;
+        margin-left: 50px;
+    }
+    .hal4-dampak-p {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+        font-size: 15px;
+        width: 700px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .text-3 {
+        color: rgba(255, 255, 255, 0.7);
+        margin-left: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .text-4 {
+        color: white;
+        margin-left: 50px;
+        margin-top: 180px;
+        font-weight: 600;
+        font-size: 35px;
         line-height: 62px;
     }
     .page {

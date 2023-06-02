@@ -59,9 +59,6 @@ body {
     width: 323px;
     height: 52px;
 }
-.hal-1-button:hover {
-    background-color: #FC3535;
-}
 .hal-1-button a {
     color: white;
     text-decoration: none;
@@ -169,7 +166,7 @@ body {
     font-size: 18px;
     line-height: 22px;
     margin-top: 110px;
-    width: max-content;
+    width: 600px;
 }
 .img-accordion-2 {
     position: relative;
@@ -187,15 +184,7 @@ body {
     font-size: 36px;
     line-height: 45px;
 }
-.text-accordion-p-2 {
-    color: rgba(255, 255, 255, 0.7);
-    position: absolute;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 110px;
-    width: max-content;
-}
+
 /* End Hal-3 */
 
 /* Start Hal-4 */
