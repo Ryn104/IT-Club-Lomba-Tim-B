@@ -135,14 +135,15 @@
 
 @media only screen and (max-width: 430px) {
     .penyebab-hal-1 {
-        display: flex;
+        display: block;
         justify-content: center;
-        height: 100vh;
-        margin-top: -80px;
+        height: 1000px;
+        margin-top: -220px;
     }
 
     .hal1-penyebab-p {
-        width: 450px;
+        width: 360px;
+        text-align: justify;
     }
 
     .img-penyebab-1 {
@@ -154,8 +155,9 @@
     }
 
     .img-penyebab-hal1 {
-        width: 503px;
-        height: 400px;
+        margin-top: -245px;
+        width: 420px;
+        height: 300px;
     }
 
     .card-box {
@@ -236,24 +238,27 @@
         font-style: normal;
         font-weight: 600;
         font-size: 10px;
-        margin-left: 15px;
+        margin-left: 20px;
         margin-right: 20px;
+        position: relative;
     }
 
     .img-penyebab {
-        height: 95px;
+        height: 120px;
         width: min-content;
+        margin-left: -35px;
     }
 
     .text-penyebab {
         position: relative;
         margin-left: -50px;
+        margin-bottom: -15px;
     }
 
     .card-title-1 {
         position: absolute;
         color: white;
-        bottom: 50px;
+        bottom: 55px;
         font-weight: 600;
         font-size: 8px;
     }
