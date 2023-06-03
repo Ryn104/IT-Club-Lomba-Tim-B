@@ -65,7 +65,7 @@
         text-align: justify;
     }
     .img1-dampak {
-        margin-top: -245px;
+        margin-top: -260px;
         width: 420px !important;
         height: 300px !important;
     }
@@ -73,18 +73,18 @@
         display: flex;
         flex: 1;
         justify-content: center;
-        margin-top: auto;
+        margin-top: -30px;
         margin-bottom: auto;
     }
     .carousel-dampak {
         border-radius: 10px;
-        margin-top: -50px;
+        margin-top: -20px;
     }
     .dampak-carousel-tempat {
         color: white;
         font-weight: 600;
         font-size: 11px;
-        margin-top: -235px;
+        margin-top: -265px;
         margin-left: 5px;
     }
     .dampak-carousel-h1 {

@@ -69,8 +69,9 @@
     }
 
     .img-1 {
-        width: 513px !important;
-        height: 410px !important;
+        margin-top: -245px;
+        width: 350px !important;
+        height: 250px !important;
     }
 
     .solusi-hal-2 {
@@ -78,10 +79,12 @@
     }
 
     .hal1-solusi {
-        width: 550px;
+        width: 360px !important;
+        text-align: justify;
     }
 
     .solusi-hal-2-p {
+        margin-top: 60px;
         display: flex;
         padding-bottom: 0px;
         border-bottom: 1px solid #D5D4D9;
