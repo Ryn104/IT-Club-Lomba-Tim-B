@@ -70,8 +70,8 @@
 
     .img-1 {
         margin-top: -245px;
-        width: 350px !important;
-        height: 250px !important;
+        width: 360px !important;
+        height: 260px !important;
     }
 
     .solusi-hal-2 {
@@ -130,5 +130,10 @@
         margin-top: 10px;
         border-bottom: 1px solid #D5D4D9;
         padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .img-1 {
+        margin-top: -205px;
     }
 }
