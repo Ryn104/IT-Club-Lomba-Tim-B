@@ -120,6 +120,15 @@ body {
     border-radius: 10px;
     padding:10px;
 }
+.accordion-button:not(.collapsed) {
+    background: #090A09;
+}
+.accordion-button::after {
+    display: none;
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 5px;
+}
 .text-accordion {
     display: flex;
     flex: 1;

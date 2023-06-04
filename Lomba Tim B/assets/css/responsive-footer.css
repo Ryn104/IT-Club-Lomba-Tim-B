@@ -134,3 +134,18 @@
         height: 15px;
     }
 }
+@media only screen and (max-width: 400px) {
+    .line-footer {
+        border-top: 1px solid #D5D4D9;
+        margin-bottom: 5px;
+    }
+    .category {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: auto;
+        padding-bottom: 0px;
+        align-items: center;
+    }
+}

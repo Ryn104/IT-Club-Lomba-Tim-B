@@ -619,3 +619,39 @@
         margin-left: -3px;
     }
 }
+@media only screen and (max-width: 400px) {
+    .hal4-dampak-tempat {
+        color: white;
+        font-weight: 600;
+        font-size: 11px;
+        margin-top: -12px;
+        margin-left: 5px;
+    }
+    .hal4-dampak-h1 {
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        width: 340px;
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+    .hal4-dampak-p {
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 400;
+        font-size: 10px;
+        width: 325px;
+        text-align: left;
+        margin-top: 10px;
+        line-height: 12px;
+        margin-left: 5px;
+    }
+    .img-pemulihan-1 {
+        height: 17.5vw;
+    }
+    .img-pemulihan-2 {
+        height: 36.1vw;
+    }
+    .img1-pemulihan {
+        margin-left: -2px;
+    }
+}
