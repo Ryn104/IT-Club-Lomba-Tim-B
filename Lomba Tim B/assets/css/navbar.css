@@ -9,6 +9,7 @@
     flex-direction: row;
     width: 100%;
     padding: 10px 0px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9136029411764706) 0%, rgba(0, 0, 0, 0.671) 79%, rgba(0, 0, 0, 0.315) 92%, rgba(255,255,255,0) 100%);
 }
 .logo {
     display: block;
@@ -62,6 +63,7 @@
     height: 40px;
     justify-content: center;
     align-items: center;
+    border: 0px solid rgba(116, 116, 116, 0.267);
 }
 .button-navbar span {
     height: 20px;
