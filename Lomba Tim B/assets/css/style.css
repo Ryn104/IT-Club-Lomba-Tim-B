@@ -8,7 +8,10 @@ body {
 }
 /* Start Hal-1 */
 .index-hal1 {
-    margin-top: 130px;
+    margin-top: 110px;
+}
+.index-hal1-p {
+    width: 700px;
 }
 .hal-1-main {
     height: 100vh;
@@ -74,12 +77,15 @@ body {
     justify-content: flex-end;
 }
 .hal-1-box {
-    width: 287px;
-    height: 246px;
+    width: 277px;
+    height: 255px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.69%, rgba(255, 255, 255, 0.1) 104.12%);
     filter: blur(0.5px);
     border-radius: 20px;
-    padding: 35px 25px;
+    padding: 25px 25px;
+}
+.p-button-2 {
+    width: 220px;
 }
 /* End Hal-1 */
 
