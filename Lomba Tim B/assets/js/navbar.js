@@ -24,3 +24,4 @@ galery.addEventListener("click", function(){
     galery.style.marginBottom = "-3px";
     galery.style.color = "white";
 });
+  

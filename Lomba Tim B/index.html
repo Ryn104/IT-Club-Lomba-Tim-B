@@ -27,6 +27,8 @@
     <!-- CSS Footer -->
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/responsive-footer.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <style>
     body {
@@ -40,7 +42,7 @@
 
 <body>
     <!-- Start NavBar -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar" data-aos="fade-down">
         <div class="container">
             <a href="#" class="logo navbar-brand">Laut<span class="titik">.</span></a>
             <button class="navbar-toggler button-navbar" type="button" data-bs-toggle="collapse"
@@ -66,14 +68,14 @@
     <!-- Start Hal-1 -->
     <div class="hal-1">
         <div class="hal-1-main container index-hal1">
-            <h1 class="hal-1-h1">Lautan tercemar,<br> Tindakan diperlukan<span class="titik">.</span></h1>
-            <p class="hal-1-p index-hal1-p">Pencemaran laut di Indonesia telah menjadi ancaman serius bagi keanekaragaman hayati di ekosistem laut. Dampak dari limbah plastik dan tumpahan minyak telah merusak terumbu karang, mengancam spesies ikan dan satwa laut, serta mengganggu keseimbangan ekosistem.</p>
+            <h1 class="hal-1-h1" data-aos="fade-down" data-aos-duration="1000">Lautan tercemar,<br> Tindakan diperlukan<span class="titik">.</span></h1>
+            <p class="hal-1-p index-hal1-p" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Pencemaran laut di Indonesia telah menjadi ancaman serius bagi keanekaragaman hayati di ekosistem laut. Dampak dari limbah plastik dan tumpahan minyak telah merusak terumbu karang, mengancam spesies ikan dan satwa laut, serta mengganggu keseimbangan ekosistem.</p>
             <div class="hal-1-kotak">
-                <button class="hal-1-button">
+                <button class="hal-1-button" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <a href="pages/solusi.html" class="link-button">Solusi yang bisa dilakukan</a>
                     <i class="fa-solid fa-arrow-right arrow-index" style="color: white; width: 10px;"></i>
                 </button>
-                <div class="hal-1-button-2">
+                <div class="hal-1-button-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                     <div class="hal-1-box">
                         <h2 class="hal-1-h2">63%</h2><br>
                         <h4 class="hal-1-h4 h4-button-2">Lautan Di Indonesia Tercemar</h4>
@@ -88,27 +90,21 @@
 
     <!-- Start Hal-2 -->
     <div class="container hal-2">
-        <h1 class="hal-1-h1 hal-2-h1">Marine<br>Debris</h1>
-        <p class="hal-1-p hal-2-p">
-            Marine debris terdiri dari berbagai jenis bahan, seperti plastik, kertas, logam, kaca, dan sebagainya.
-            Sampah ini dapat berasal dari berbagai sumber, termasuk aktivitas manusia di darat dan di perairan, seperti
-            pembuangan limbah langsung ke laut, limbah yang terbawa oleh aliran sungai, pembuangan sampah dari kapal,
-            atau bahkan akibat kecelakaan kapal.
+        <h1 class="hal-1-h1 hal-2-h1" data-aos="fade-up-right" data-aos-duration="1000">Pencemaran<br>Laut</h1>
+        <p class="hal-1-p hal-2-p" data-aos="fade-up-left" data-aos-duration="1000">
+            Pencemaran laut di Indonesia disebabkan oleh limbah industri yang tidak terkelola dengan baik, limbah domestik yang dibuang langsung ke laut, limbah pertanian yang mengandung nutrien berlebih, tumpahan minyak dan bahan bakar dari kecelakaan kapal atau instalasi minyak dan gas, serta masalah serius sampah plastik. Semua faktor ini berdampak pada kerusakan ekosistem laut, penurunan sumber daya kelautan, dan risiko kesehatan bagi manusia.
         </p>
-        <p class="hal-1-p hal-2-p">
-            Marine debris memiliki dampak negatif yang signifikan pada ekosistem laut dan organisme hidup di dalamnya.
-            Sampah plastik, misalnya, dapat menyebabkan kerusakan fisik dan keracunan bagi hewan laut yang memakan atau
-            terperangkap di dalamnya. Selain itu, marine debris juga merusak keindahan alam, mengganggu pariwisata, dan
-            mengancam kesehatan manusia jika terjadi kontaminasi pada sumber air atau ikan yang dikonsumsi.
+        <p class="hal-1-p hal-2-p" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="500">
+            Salah satu dampak utama adalah kerusakan ekosistem laut. Limbah industri yang tidak terkelola dengan baik dan tumpahan minyak dapat mencemari perairan dan merusak kehidupan laut. Zat-zat kimia berbahaya dalam limbah industri dapat menghancurkan terumbu karang, mengurangi keberagaman hayati, dan mengganggu siklus kehidupan organisme laut. Selain itu, tumpahan minyak dapat menyebabkan kematian massal ikan dan burung laut yang terkena dampaknya.
         </p>
     </div>
     <!-- End Hal-2 -->
 
     <!-- Start Hal-3 Penyebab-Pencemaran-->
     <div class="container">
-        <h1 class="hal-1-h1 hal-3-h1">Penyebab Pencemaran</h1>
+        <h1 class="hal-1-h1 hal-3-h1" data-aos="fade-up" data-aos-duration="1000">Penyebab Pencemaran</h1>
         <div class="accordion accordion-flush accordion-hal3" id="accordionFlushExample">
-            <div class="accordion-item hal-3-accordion-item">
+            <div class="accordion-item hal-3-accordion-item" data-aos="zoom-in-up" data-aos-duration="1000">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed button-accordion" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -133,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item hal-3-accordion-item">
+            <div class="accordion-item hal-3-accordion-item" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed button-accordion" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -158,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item hal-3-accordion-item">
+            <div class="accordion-item hal-3-accordion-item" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed button-accordion" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
@@ -184,7 +180,7 @@
                     </div>
                 </div>
             </div>
-            <div class="accordion-item hal-3-accordion-item">
+            <div class="accordion-item hal-3-accordion-item" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="600">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed button-accordion" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
@@ -217,14 +213,14 @@
     <!-- Start Hal-4 Dampak -->
     <div class="container">
         <div class="hal-4">
-            <h1 class="hal-1-h1 hal-4-h1">Dampak pencemaran<br>sampah</h1>
+            <h1 class="hal-1-h1 hal-4-h1" data-aos="fade-right" data-aos-duration="1000">Dampak pencemaran<br>sampah</h1>
             <br><br>
-            <p class="hal-1-p hal-4-p">Dampak pencemaran laut merujuk pada konsekuensi negatif yang ditimbulkan akibat
+            <p class="hal-1-p hal-4-p" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Dampak pencemaran laut merujuk pada konsekuensi negatif yang ditimbulkan akibat
                 masuknya zat-zat berbahaya atau limbah ke perairan laut. Pencemaran laut dapat memiliki efek yang
                 merusak terhadap lingkungan, organisme hidup, dan manusia. </p>
         </div>
     </div>
-    <div class="card container bg-img" style="border-radius: 1px solid #090A09 ;">
+    <div class="card container bg-img" style="border-radius: 1px solid #090A09 ;" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="300">
         <img src="assets/img/img-dampak-2.png" style="width: 100%px;" alt="...">
         <div class="card-img-overlay">
             <p class="hal4-dampak-tempat">/Pantai Utara DKI Jakarta, Indonesia</p>
@@ -237,7 +233,7 @@
                 konservasi dan pengelolaan yang baik untuk menjaga kelestarian lingkungan laut di wilayah tersebut.</p>
         </div>
     </div>
-    <div class="container page">
+    <div class="container page" data-aos="zoom-out" data-aos-delay="400">
         <div class="card bg-img colum-1" style="width: 50%">
             <img src="assets/img/bg-2.png" class="card-img" alt="...">
             <div class="card-img-overlay">
@@ -378,6 +374,11 @@
     crossorigin="anonymous"></script>
 <!-- JS NavBar -->
 <script src="assets/js/navbar.js">
+</script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 </html>
