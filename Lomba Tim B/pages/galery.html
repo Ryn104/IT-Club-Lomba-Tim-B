@@ -27,7 +27,9 @@
     <link rel="stylesheet" href="../assets/css/dampak.css">
     <!-- CSS Galery -->
     <link rel="stylesheet" href="../assets/css/galery.css">
-    <link rel="stylesheet" href="../assets/css/responsive-galery.css">
+    <link rel="stylesheet" href="../assets/css/responsive-galery.css">    
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -57,23 +59,23 @@
     <!-- Start Hal-1 -->
     <div class="galery-hal-1 container">
         <div class="hal-1-main">
-            <h1 class="hal-1-h1">Galery<br>Laut</h1>
-            <p class="hal-1-p hal1-galery-p">Laut adalah sebuah ekosistem luas yang meliputi perairan yang menghubungkan benua-benua di seluruh dunia. Laut dapat memiliki berbagai karakteristik, termasuk kedalaman yang beragam, suhu yang bervariasi, dan keanekaragaman hayati yang luar biasa.</p>
+            <h1 class="hal-1-h1" data-aos="fade-right" data-aos-duration="1000">Galery<br>Laut</h1>
+            <p class="hal-1-p hal1-galery-p" data-aos="fade-left" data-aos-duration="1000">Laut adalah sebuah ekosistem luas yang meliputi perairan yang menghubungkan benua-benua di seluruh dunia. Laut dapat memiliki berbagai karakteristik, termasuk kedalaman yang beragam, suhu yang bervariasi, dan keanekaragaman hayati yang luar biasa.</p>
         </div>
         <div class="img-galery">
             <div class="card-1">
-                <div class="card-galery-1 img">
+                <div class="card-galery-1 img" data-aos="zoom-in-up" data-aos-duration="1000">
                     <img src="../assets/img/img-galery-2.png" style=" width: 276px;" alt="" class="img1-galery">
                 </div>
-                <div class="card-galery-3 img">
+                <div class="card-galery-3 img" data-aos="zoom-in-up" data-aos-duration="1000">
                     <img src="../assets/img/img-galery-3.png" style="width: 276px;" alt="" class="img2-galery">
                 </div>
             </div>
             <div class="card-2">
-                <div class="card-galery-2 img">
+                <div class="card-galery-2 img" data-aos="zoom-in-up" data-aos-duration="1000">
                     <img src="../assets/img/img-galery-1.png" style="width: 288px;" alt="" class="img3-galery">
                 </div>
-                <div class="card-galery-4 img">
+                <div class="card-galery-4 img" data-aos="zoom-in-up" data-aos-duration="1000">
                     <img src="../assets/img/img-galery-4.png" style="width: 288px; height: 306px;" alt="" class="img4-galery">
                 </div>
             </div>
@@ -91,16 +93,16 @@
                 <img src="../assets/img/img-galery-7.png" style="width: 510px;" alt="" class="galery-img-hal2 img-page-1">
             </div>
             <div class="galery-col-2">
-                <img src="../assets/img/img-galery-8.png" style="width: 365px;" alt="" class="galery-img-hal2 img-page-2">
-                <img src="../assets/img/img-galery-9.png" style="width: 365px;" alt="" class="galery-img-hal2 img-page-2">
-                <img src="../assets/img/img-galery-10.png" style="width: 365px;" alt="" class="galery-img-hal2 img-page-2">
+                <img src="../assets/img/img-galery-8.png" style="width: 365px;" alt="" class="galery-img-hal2 img-page-2" data-aos="zoom-in-up" data-aos-duration="1000">
+                <img src="../assets/img/img-galery-9.png" style="width: 365px;" alt="" class="galery-img-hal2 img-page-2" data-aos="zoom-in-up" data-aos-duration="1000">
+                <img src="../assets/img/img-galery-10.png" style="width: 365px;" alt="" class="galery-img-hal2 img-page-2" data-aos="zoom-in-up" data-aos-duration="1000">
             </div>
             <div class="galery-col-3">
                 <div>
-                    <img src="../assets/img/img-galery-11.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3">
-                    <img src="../assets/img/img-galery-12.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3">
-                    <img src="../assets/img/img-galery-13.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3">
-                    <img src="../assets/img/img-galery-14.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3">
+                    <img src="../assets/img/img-galery-11.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="../assets/img/img-galery-12.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="../assets/img/img-galery-13.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <img src="../assets/img/img-galery-14.png" style="width: 405px;" alt="" class="galery-img-hal2 img-page-3" data-aos="zoom-in-up" data-aos-duration="1000">
                 </div>
             </div>
         </div>
@@ -134,5 +136,9 @@
     crossorigin="anonymous"></script>
 <!-- JS NavBar -->
 <script src="../assets/js/navbar.js"></script>
-
+ <!-- AOS -->
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 </html>
