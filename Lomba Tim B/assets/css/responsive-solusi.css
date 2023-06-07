@@ -66,16 +66,18 @@
 
     .dampak-hal-1 {
         height: 100vh;
+        margin-top: -140px;
     }
 
     .img-1 {
-        margin-top: -245px;
+        margin-top: -225px;
         width: 360px !important;
         height: 260px !important;
     }
 
     .solusi-hal-2 {
         margin-bottom: 100px;
+        margin-top: 140px;
     }
 
     .hal1-solusi {
@@ -114,17 +116,17 @@
 
     .solusi-hal-2-h2 {
         font-weight: 600;
-        font-size: 13px;
+        font-size: 14px;
         color: #FFFFFF;
         margin-left: -24px;
     }
 
     .solusi-hal-2-p2 {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 13px;
         margin-left: -26;
         color: rgba(255, 255, 255, 0.7);
-        line-height: 11px;
+        line-height: 15px;
     }
 
     .solusi-paragraf-1 {

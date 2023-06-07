@@ -52,6 +52,9 @@
     .tempat-ryn {
         margin-top: -740px;
     }
+    .arrow {
+        margin-top: 0px;
+    }
 }
 @media only screen and (max-width: 430px) {
     .dampak-hal-1 {

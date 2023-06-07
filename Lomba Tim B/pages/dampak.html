@@ -13,6 +13,8 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- Icon Website -->
     <link rel="website icon" type="png" href="../assets/icon/logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- NavBar -->
     <link rel="stylesheet" href="../assets/css/navbar.css">
     <link rel="stylesheet" href="../assets/css/responsive-navbar.css">
@@ -24,10 +26,9 @@
     <link rel="stylesheet" href="../assets/css/responsive.css">
     <!-- CSS Dampak -->
     <link rel="stylesheet" href="../assets/css/dampak.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- responsive dampak -->
     <link rel="stylesheet" href="../assets/css/responsive-dampak.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -57,15 +58,15 @@
     <!-- Start Hal-1 -->
     <div class="dampak-hal-1 container">
         <div class="hal-1-main">
-            <h1 class="hal-1-h1">Dampak<br>Pencemaran</h1>
-            <p class="hal-1-p hal1-dampak-p">Dampak pencemaran laut merujuk pada konsekuensi negatif yang ditimbulkan akibat masuknya zat-zat berbahaya atau limbah ke perairan laut. Pencemaran laut dapat memiliki efek yang merusak terhadap lingkungan, organisme hidup, dan manusia. </p>
+            <h1 class="hal-1-h1" data-aos="fade-right" data-aos-duration="1000">Dampak<br>Pencemaran</h1>
+            <p class="hal-1-p hal1-dampak-p" data-aos="fade-left" data-aos-duration="1000">Dampak pencemaran laut merujuk pada konsekuensi negatif yang ditimbulkan akibat masuknya zat-zat berbahaya atau limbah ke perairan laut. Pencemaran laut dapat memiliki efek yang merusak terhadap lingkungan, organisme hidup, dan manusia. </p>
         </div>
-        <div class="img-dampak-1"><img src="../assets/img/img-dampak-1.png" alt="" width="612" height="510" class="img1-dampak"></div>
+        <div class="img-dampak-1" data-aos="zoom-in-left" data-aos-duration="1000"><img src="../assets/img/img-dampak-1.png" alt="" width="612" height="510" class="img1-dampak"></div>
     </div>
     <!-- End Hal-1 -->
 
     <!-- Start Carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide carousel-dampak container">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-dampak container" data-aos="zoom-out" data-aos-duration="1000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="../assets/img/img-dampak-2-1.png" class="d-block w-100" alt="...">
@@ -115,7 +116,7 @@
     <div class="footer">
 
         <div class="img-footer">
-            <img src="../assets/img/footer.png" class="img" alt="">
+            <img src="../assets/img/footer.png" class="img" alt=""  data-aos="zoom-out" data-aos-duration="2000">
         </div>
         <div class="container line-footer"></div>
         <div class="category container">
@@ -138,4 +139,8 @@
     crossorigin="anonymous"></script>
     <!-- JS NavBar -->
     <script src="../assets/js/navbar.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </html>
