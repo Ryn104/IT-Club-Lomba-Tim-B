@@ -24,4 +24,9 @@ galery.addEventListener("click", function(){
     galery.style.marginBottom = "-3px";
     galery.style.color = "white";
 });
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("nav");
+    header.classList.toggle("sticky", window.scrollY > 100);
+  });
+  
   

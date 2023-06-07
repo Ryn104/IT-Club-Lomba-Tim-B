@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 0px;
     padding: 0px;
     /* background-image: url("../img/bg-1.png");
@@ -12,6 +12,7 @@ body {
 }
 .index-hal1-p {
     width: 700px;
+    text-shadow: 0px 0px 20px #000000 !important;
 }
 .hal-1-main {
     height: 100vh;
@@ -75,6 +76,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    margin-left: -10px;
 }
 .hal-1-box {
     width: 277px;
@@ -86,6 +88,7 @@ body {
 }
 .p-button-2 {
     width: 220px;
+    font-size: 15px !important;
 }
 /* End Hal-1 */
 

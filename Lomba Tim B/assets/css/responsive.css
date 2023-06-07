@@ -2,7 +2,7 @@
 @media only screen and (max-width: 1370px) {
     /* Start Hal-1 */
     .index-hal1 {
-        margin-top: -15px;
+        margin-top: 50px;
     }
     .hal-1-main {
         height: 100vh;
@@ -29,14 +29,14 @@
         color: white;
         font-style: normal;
         font-weight: 600;
-        font-size: 40px;
+        font-size: 35px;
         letter-spacing: -0.02em;
     }
     .hal-1-h4 {
         color: white;
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: -0.02em;
     }
     .hal-1-kotak {
@@ -69,11 +69,14 @@
     .hal-1-box {
         margin-top: -20px;
         width: 270px;
-        height: 196px;
+        height: 206px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -8.69%, rgba(255, 255, 255, 0.1) 104.12%);
         filter: blur(0.5px);
         border-radius: 20px;
         padding: 25px 25px;
+    }
+    .p-button-2 {
+        width: 220px;
     }
     /* End Hal-1 */
 

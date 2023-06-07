@@ -9,7 +9,10 @@
     flex-direction: row;
     width: 100%;
     padding: 10px 0px;
-    background: linear-gradient(180deg, rgba(0,0,0,0.9136029411764706) 0%, rgba(0, 0, 0, 0.671) 79%, rgba(0, 0, 0, 0.315) 92%, rgba(255,255,255,0) 100%);
+    background-color: transparent;
+}
+.sticky {
+    background-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8995973389355743) 33%, rgba(0,0,0,0.8687850140056023) 59%, rgba(0,0,0,0.7231267507002801) 85%, rgba(0,0,0,0.5858718487394958) 91%, rgba(255,255,255,0) 100%);
 }
 .logo {
     display: block;
