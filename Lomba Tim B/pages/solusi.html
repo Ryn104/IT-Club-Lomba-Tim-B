@@ -27,7 +27,9 @@
     <link rel="stylesheet" href="../assets/css/responsive-dampak.css">
     <!-- CSS Solusi -->
     <link rel="stylesheet" href="../assets/css/solusi.css">
-    <link rel="stylesheet" href="../assets/css/responsive-solusi.css">
+    <link rel="stylesheet" href="../assets/css/responsive-solusi.css">       
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -57,12 +59,12 @@
     <!-- Start Hal-1 -->
     <div class="dampak-hal-1 container">
         <div class="hal-1-main">
-            <h1 class="hal-1-h1">Solusi<br>Pencemaran</h1>
-            <p class="hal-1-p hal1-solusi">Solusi pencemaran laut meliputi pengelolaan limbah yang efektif, pengurangan
+            <h1 class="hal-1-h1" data-aos="fade-right" data-aos-duration="1000">Solusi<br>Pencemaran</h1>
+            <p class="hal-1-p hal1-solusi" data-aos="fade-left" data-aos-duration="1000">Solusi pencemaran laut meliputi pengelolaan limbah yang efektif, pengurangan
                 penggunaan plastik, pengaturan perikanan yang berkelanjutan, pengendalian tumpahan minyak, kesadaran
                 publik dan edukasi, pengendalian polusi industri, dan kerjasama internasional.</p>
         </div>
-        <div class="img-dampak-1"><img src="../assets/img/img-solusi-1.png" alt="" width="623" height="520"
+        <div class="img-dampak-1" data-aos="zoom-in-left" data-aos-duration="1000"><img src="../assets/img/img-solusi-1.png" alt="" width="623" height="520"
                 class="img-1"></div>
     </div>
     <!-- End Hal-1 -->
@@ -185,5 +187,10 @@
     crossorigin="anonymous"></script>
 <!-- JS NavBar -->
 <script src="../assets/js/navbar.js"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>
