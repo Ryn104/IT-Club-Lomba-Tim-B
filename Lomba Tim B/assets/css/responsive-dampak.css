@@ -61,14 +61,14 @@
         display: block;
         justify-content: center;
         height: 1000px;
-        margin-top: -220px;
+        margin-top: -160px;
     }
     .hal1-dampak-p {
         width: 360px !important;
         text-align: justify;
     }
     .img1-dampak {
-        margin-top: -260px;
+        margin-top: -240px;
         width: 420px !important;
         height: 300px !important;
     }
