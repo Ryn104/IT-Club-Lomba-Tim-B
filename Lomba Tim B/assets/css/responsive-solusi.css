@@ -85,6 +85,10 @@
         text-align: justify;
     }
 
+    .item-solusi {
+        display: inline-block;
+    }
+
     .solusi-hal-2-p {
         margin-top: 60px;
         display: flex;
@@ -116,17 +120,21 @@
 
     .solusi-hal-2-h2 {
         font-weight: 600;
-        font-size: 14px;
+        font-size: 16px;
         color: #FFFFFF;
-        margin-left: -24px;
+        margin-left: -45px;
+        margin-top: 10px;
+        margin-bottom: 8px;
     }
 
     .solusi-hal-2-p2 {
-        font-weight: 400;
+        font-weight: 390;
         font-size: 13px;
-        margin-left: -26;
+        margin-left: 0px;
         color: rgba(255, 255, 255, 0.7);
         line-height: 15px;
+        width: 400px !important;
+        text-indent: 40px;
     }
 
     .solusi-paragraf-1 {

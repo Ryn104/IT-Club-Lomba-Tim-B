@@ -110,6 +110,9 @@
     #navbar {
         margin-top: -15px;
     }
+    .nav-link {
+        margin-left: auto;
+    }
 }
 @media only screen and (max-width: 400px) {
     .logo {
