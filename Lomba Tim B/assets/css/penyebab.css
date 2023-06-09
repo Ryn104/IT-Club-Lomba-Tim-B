@@ -1,5 +1,18 @@
 body {
-    background-color: black;
+    background-image: url(../img/bg-penyebab.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-img-2  {
+    background-image: url(../img/bg-penyebab-2.png);
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .penyebab-hal-1 {
     display: flex;
@@ -11,8 +24,11 @@ body {
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    margin-top: auto;
+    margin-top: auto; 
     margin-bottom: auto;
+}
+.card-penyebab {
+    margin-top: 20px;
 }
 .card-box {
     display: flex;
