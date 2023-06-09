@@ -83,13 +83,13 @@
 
     /* Start Hal-2 */
     .hal-2 {
-        padding: 100px 280px 130px 280px;
+        padding: 130px 140px 130px 280px;
     }
     .hal-2-h1 {
         margin-bottom: 30px;
     }
     .hal-2-p {
-        width: 450px;
+        width: 550px;
         margin-left: auto;
         margin-bottom: 30px;
         font-size: 15px;
@@ -199,7 +199,7 @@
 
     /* Start Hal-4 */
     .hal-4 {
-        margin-top: 240px;
+        margin-top: 180px;
     }
     .hal-4-h1 {
         margin-bottom: 0px;
@@ -263,13 +263,13 @@
 
     /* Start Hal-5 */
     .hal-5-h1 {
-        margin-top: 250px;
+        margin-top: 10px;
     }
     /* End Hal-5 */
 
     /* Start Hal-6 */
     .hal-6-h1 {
-        margin-top: 250px;
+        margin-top: 0px;
     }
     .hal-6-top {
         display: flex;
@@ -404,13 +404,13 @@
 
     /* Start Hal-2 */
     .hal-2 {
-        padding: 50px 20px 80px 20px;
+        padding: 190px 20px 80px 20px;
     }
     .hal-2-h1 {
         margin-bottom: 30px;
     }
     .hal-2-p {
-        width: 250px;
+        width: 350px;
         margin-left: auto;
         margin-bottom: 30px;
         font-size: 15px;
@@ -422,6 +422,7 @@
     .hal-3-h1 {
         text-align: center;
         margin-bottom: 50px;
+        padding-top: 130px;
     }
     .accordion-hal3 {
         width: 100%;
@@ -546,7 +547,7 @@
         font-weight: 600;
         font-size: 12px;
         margin-top: 0px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     .hal4-dampak-h1 {
         color: white;
@@ -554,17 +555,18 @@
         font-size: 16px;
         width: 360px;
         margin-top: 30px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     .hal4-dampak-p {
         color: rgba(255, 255, 255, 0.7);
+        text-shadow: 0px 0px 20px #000000 !important;
         font-weight: 400;
         font-size: 13px;
         width: 390px;
         text-align: left;
         margin-top: 10px;
         line-height: 14px;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     .text-3 {
         color: rgba(255, 255, 255, 0.7);
@@ -574,12 +576,12 @@
         line-height: 12px;
         margin-top: -20px;
         width: 180px;
-        margin-left: -5px;
+        margin-left: 2px;
     }
     .text-4 {
         color: white;
-        margin-left: -5px;
-        margin-top: 0px;
+        margin-left: 2px;
+        margin-top: 10px;
         font-weight: 600;
         font-size: 20px;
         line-height: 62px;
@@ -596,13 +598,13 @@
 
     /* Start Hal-5 */
     .hal-5-h1 {
-        margin-top: 120px;
+        margin-top: 10px;
     }
     /* End Hal-5 */
 
     /* Start Hal-6 */
     .hal-6-h1 {
-        margin-top: 120px;
+        margin-top: 20px;
     }
     .hal-6-top {
         display: flex;
@@ -626,10 +628,10 @@
         margin-bottom: 100px;
     }
     .img-pemulihan-1 {
-        height: 17.7vw;
+        height: 17.9vw;
     }
     .img-pemulihan-2 {
-        height: 36.3vw;
+        height: 36.6vw;
     }
     .img1-pemulihan {
         margin-left: -3px;

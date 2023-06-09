@@ -91,13 +91,13 @@ body {
 
 /* Start Hal-2 */
 .hal-2 {
-    padding: 220px;
+    padding: 120px 120px 220px 220px;
 }
 .hal-2-h1 {
     margin-bottom: 80px;
 }
 .hal-2-p {
-    width: 650px;
+    width: 800px;
     margin-left: auto;
     margin-bottom: 40px;
 }
@@ -107,6 +107,7 @@ body {
 .hal-3-h1 {
     text-align: center;
     margin-bottom: 100px;
+    padding-top: 250px;
 }
 .accordion-hal3 {
     width: 90%;
@@ -269,13 +270,13 @@ body {
 
 /* Start Hal-5 */
 .hal-5-h1 {
-    margin-top: 250px;
+    margin-top: 100px;
 }
 /* End Hal-5 */
 
 /* Start Hal-6 */
 .hal-6-h1 {
-    margin-top: 320px;
+    margin-top: 100px;
 }
 .hal-6-top {
     display: flex;
