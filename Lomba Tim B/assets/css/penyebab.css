@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/bg-penyebab.png);
+    background-image: url(../img/bg-penyebab-3.png);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -7,18 +7,21 @@ body {
     background-repeat: no-repeat;
 }
 .bg-img-2  {
-    background-image: url(../img/bg-penyebab-2.png);
+    background-image: url(../img/bg-penyebab-4.png);
+    margin-top: 0px;
     width: 100vw;
     height: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    /* padding-top: 100px; */
 }
 .penyebab-hal-1 {
     display: flex;
     justify-content: center;
     height: 100vh;
     margin-top: 0px;
+    margin-bottom: 0px !important;
 }
 .img-penyebab-1 {
     display: flex;
@@ -28,7 +31,7 @@ body {
     margin-bottom: auto;
 }
 .card-penyebab {
-    margin-top: 20px;
+    padding-top: 100px;
 }
 .card-box {
     display: flex;

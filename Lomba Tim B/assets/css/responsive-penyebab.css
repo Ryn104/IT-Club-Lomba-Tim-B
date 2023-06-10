@@ -140,7 +140,7 @@
     .penyebab-hal-1 {
         display: block;
         justify-content: center;
-        height: 1000px;
+        height: 100vh;
         margin-top: -160px;
     }
 
@@ -158,7 +158,7 @@
     }
 
     .img-penyebab-hal1 {
-        margin-top: -245px;
+        margin-top: -340px;
         width: 420px;
         height: 300px;
     }
